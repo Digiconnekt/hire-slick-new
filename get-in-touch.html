@@ -20,7 +20,7 @@
       href="assets/imgs/template/favicon.svg"
     />
     <link href="assets/css/style.css?version=4.1" rel="stylesheet" />
-    <title>Hire Slick - Candidate Forgot Password</title>
+    <title>Hire Slick - Get In Touch</title>
   </head>
   <body>
     <!-- loader start -->
@@ -185,59 +185,95 @@
     <!-- mobile header end -->
 
     <!-- main content start -->
-    <main class="main">
-      <section class="pt-100 login-register">
+    <main class="main pt-30">
+      <!-- form start -->
+      <section class="section-box mt-70">
         <div class="container">
-          <div class="row login-register-cover">
-            <div class="col-lg-4 col-md-6 col-sm-12 mx-auto">
-              <div class="text-center">
-                <h2 class="mt-10 mb-30 text-brand-1">Forgot Password</h2>
-              </div>
-              <form class="login-register text-start mt-20" action="#">
-                <div class="form-group">
-                  <label class="form-label" for="input-1"
-                    >Email address *</label
-                  >
-                  <input
-                    class="form-control"
-                    id="input-1"
-                    type="text"
-                    required=""
-                    name="fullname"
-                    placeholder="steven@example.com"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <button
-                    class="btn btn-brand-1 hover-up w-100"
-                    type="submit"
-                    name="submit"
-                  >
-                    Submit
-                  </button>
-                </div>
-                <div class="text-muted text-center">
-                  back to <a href="./candidate-login.html">Sign In</a>
+          <div class="row">
+            <div class="col-lg-8 mb-40">
+              <span class="font-md color-brand-2 mt-20 d-inline-block"
+                >Contact us</span
+              >
+              <h2 class="mt-5 mb-10">Get in touch</h2>
+              <p class="font-md color-text-paragraph-2">
+                The right move at the right time saves your investment. live<br
+                  class="d-none d-lg-block"
+                />
+                the dream of expanding your business.
+              </p>
+              <form
+                class="contact-form-style mt-30"
+                id="contact-form"
+                action="#"
+                method="post"
+              >
+                <div
+                  class="row wow animate__animated animate__fadeInUp"
+                  data-wow-delay=".1s"
+                >
+                  <div class="col-lg-6 col-md-6">
+                    <div class="input-style mb-20">
+                      <input
+                        class="font-sm color-text-paragraph-2"
+                        name="name"
+                        placeholder="Enter your name"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="input-style mb-20">
+                      <input
+                        class="font-sm color-text-paragraph-2"
+                        name="email"
+                        placeholder="Your email"
+                        type="email"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="input-style mb-20">
+                      <input
+                        class="font-sm color-text-paragraph-2"
+                        name="phone"
+                        placeholder="Phone number"
+                        type="tel"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="input-style mb-20">
+                      <input
+                        class="font-sm color-text-paragraph-2"
+                        name="subject"
+                        placeholder="Subject"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="textarea-style mb-30">
+                      <textarea
+                        class="font-sm color-text-paragraph-2"
+                        name="message"
+                        placeholder="Your message"
+                      ></textarea>
+                    </div>
+                    <button class="submit btn btn-send-message" type="submit">
+                      Send message
+                    </button>
+                  </div>
                 </div>
               </form>
+              <p class="form-messege"></p>
             </div>
-            <div class="img-1 d-none d-lg-block">
-              <img
-                class="shape-1"
-                src="assets/imgs/page/login-register/img-4.svg"
-                alt="JobBox"
-              />
-            </div>
-            <div class="img-2">
-              <img
-                src="assets/imgs/page/login-register/img-3.svg"
-                alt="JobBox"
-              />
+            <div class="col-lg-4 text-center d-none d-lg-block">
+              <img src="assets/imgs/page/contact/img.png" alt="joxBox" />
             </div>
           </div>
         </div>
       </section>
+      <!-- form end -->
     </main>
     <!-- main content end -->
 
@@ -334,6 +370,8 @@
     <script src="assets/js/plugins/isotope.js"></script>
     <script src="assets/js/plugins/scrollup.js"></script>
     <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/noUISlider.js"></script>
+    <script src="assets/js/slider.js"></script>
     <script src="assets/js/main.js?v=4.1"></script>
   </body>
 </html>
